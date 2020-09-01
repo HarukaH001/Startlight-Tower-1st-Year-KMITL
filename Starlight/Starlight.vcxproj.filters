@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DesktopResolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy2_atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy3_atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="displayText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ingamestate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="witch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="witch1atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="witch2atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="witch3atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="witch4atk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DesktopResolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy2_atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy3_atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="displayText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ingamestate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="floor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="witch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="witch1atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="witch2atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="witch3atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="witch4atk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Starlight1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource\bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\char.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\crosshair.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\directory.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\effect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\explosion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\item.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\override.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\portal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ingamestate_button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\witch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\gale.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\vortex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\wind.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\pillar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\meni.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\quit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\quit0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rank.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\rank0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\start.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\start0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\howto.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\howto0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\pointer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\tag.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\text field.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\high.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\ranking.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\back click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resource\back no click.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resource\font.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Resource\sfx\bg\boss1.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\boss2.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\boss3.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\boss4.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\end.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\ingame.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="Resource\sfx\bg\menu.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource\sfx\explode and magic\explode and magic.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resource\sfx\atk\atk.ogg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
